@@ -1,0 +1,91 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    margin: 10px;
+    position: relative;
+}
+
+#pokeBall{
+    position: fixed;
+    left: -5px;
+    top: -5px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-image: url('./assets/Poke_Ball.png');
+    background-size: contain;
+}
+
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    width: 400px;
+    min-height: 400px;
+    background-color: lemonchiffon;
+    display: flex;
+    flex-wrap: wrap;
+    border: 20px solid orange;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.image > img {
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    border: 10px solid grey;
+    border-radius: 10px;
+}
+
+.properties {
+    flex: 1;
+    margin: 10px;
+}
+
+.description {
+    margin: 10px;
+    flex-basis: 100%;
+}
+
+ /* .search {
+   position: fixed;
+   top: 15px;
+   right: 30px;
+    border: 2px solid orange;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 10px;
+  } */
+  .search{
+   display: flex;
+   position: fixed;
+   background-color: lemonchiffon;
+   right: 30px;
+   top: 15px;
+   align-items: center;
+   justify-content: center;
+   padding: 10px 15px;
+width: 200px;
+height: 30px;
+border-radius: 10px;
+border: 3px solid grey
+
+  }
+  input{
+      width: 75%;
+      height: 20px;
+      border-style: solid;
+      border:  solid orange;
+      border-radius: 50px;
+      
+  }
+  .button-search {
+      margin: 5px;
+      border-radius: 50px;
+      height: 20px;
+   
+  }
